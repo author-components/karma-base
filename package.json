@@ -1,6 +1,6 @@
 {
   "name": "@author.io/karma-customelements",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "An extension of @author.io/karma-base, specifically designed for simplifying web component test scaffolding.",
   "main": "index.js",
   "scripts": {
