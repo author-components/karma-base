@@ -4,23 +4,25 @@
   "description": "A base configuration for running Karma browser tests locally and on Sauce Labs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo no test available"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/karma-base.git"
+    "url": "git+https://github.com/author-components/karma-base.git"
   },
   "keywords": [
     "karma",
+    "author.io",
     "base",
-    "saucelabs"
+    "web",
+    "components"
   ],
   "author": "Author.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/author/karma-base/issues"
+    "url": "https://github.com/author-components/karma-base/issues"
   },
-  "homepage": "https://github.com/author/karma-base#readme",
+  "homepage": "https://github.com/author-components/karma-base#readme",
   "dependencies": {
     "browserify": "^16.2.3",
     "browserslist": "^4.4.1",
@@ -42,9 +44,7 @@
     "table": "^5.2.1",
     "tap": "^12.1.2",
     "tap-diff": "^0.1.1",
-    "tape": "^4.9.2"
-  },
-  "devDependencies": {
+    "tape": "^4.9.2",
     "karma": "^3.1.4"
   },
   "publishConfig": {
