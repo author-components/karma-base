@@ -1,50 +1,30 @@
 {
-  "name": "@author.io/karma-base",
+  "name": "@author.io/karma-customelements",
   "version": "1.0.0",
-  "description": "A base configuration for running Karma browser tests locally and on Sauce Labs.",
+  "description": "An extension of @author.io/karma-base, specifically designed for simplifying web component test scaffolding.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo no test available"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/karma-base.git"
+    "url": "git+https://github.com/author-components/karma-base.git"
   },
   "keywords": [
     "karma",
+    "author.io",
     "base",
-    "saucelabs"
+    "web",
+    "components"
   ],
   "author": "Author.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/author/karma-base/issues"
+    "url": "https://github.com/author-components/karma-base/issues"
   },
-  "homepage": "https://github.com/author/karma-base#readme",
+  "homepage": "https://github.com/author-components/karma-base#readme",
   "dependencies": {
-    "browserify": "^16.2.3",
-    "browserslist": "^4.4.1",
-    "chalk": "^2.4.2",
-    "karma-browserify": "^6.0.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-edge-launcher": "^0.4.2",
-    "karma-firefox-launcher": "^1.1.0",
-    "karma-html2js-preprocessor": "^1.1.0",
-    "karma-ie-launcher": "^1.0.0",
-    "karma-safari-launcher": "^1.0.0",
-    "karma-source-map-support": "^1.3.0",
-    "karma-sourcemap-loader": "^0.3.7",
-    "karma-spec-reporter": "0.0.32",
-    "karma-tap": "^4.1.4",
-    "karma-tap-pretty-reporter": "^4.1.0",
-    "localenvironment": "^1.0.2",
-    "table": "^5.2.1",
-    "tap": "^12.1.2",
-    "tap-diff": "^0.1.1",
-    "tape": "^4.9.2"
-  },
-  "devDependencies": {
-    "karma": "^3.1.4"
+    "@author.io/karma-base": "^1.0.1"
   },
   "publishConfig": {
     "access": "public"
