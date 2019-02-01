@@ -159,6 +159,7 @@ let karmaconfig = {
         require('karma-edge-launcher'),
         require('karma-source-map-support'),
         require('karma-html2js-preprocessor')
+        require('karma-sauce-launcher')
       ]
 
       var localBrowsers = {}
