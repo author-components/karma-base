@@ -1,10 +1,12 @@
+const path = require('path')
+
 // Karma configuration
 module.exports = (root, buildfile) => {
   if (!root) {
     root = process.cwd()
   }
 
-  let base = require('@author.io/karma-base')(root)
+  let base = require('@author.io/karma-base')
 
   let preprocessors = () => {
     let cfg = {}
