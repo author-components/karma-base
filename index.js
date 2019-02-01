@@ -48,5 +48,7 @@ module.exports = (root, buildfile) => {
       files,
       logLevel: config.LOG_INFO
     }))
+
+    return config
   }
 }
