@@ -45,5 +45,8 @@
   },
   "devDependencies": {
     "karma": "^3.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
