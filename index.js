@@ -39,12 +39,15 @@ module.exports = (root, buildfile) => {
     ]
   }
 
-  return (config, modern = false) => {
-    modern && custombase.modernOnly()
+  return (config, modernonly = false, imports = false) => {
+    if (imports) {
+      modernonly = true
+    }
 
-    const files = custombase.getFiles(buildfile, modern)
+    const files = custombase.getFiles(buildfile, imports)
 
     base.displayFiles(files)
+    modernonly && custombase.modernOnly()
 
     config.set(Object.assign(custombase.configuration, {
       files,
