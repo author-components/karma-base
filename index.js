@@ -40,6 +40,8 @@ module.exports = (root, buildfile) => {
   }
 
   return (config, modern = false) => {
+    modern && custombase.modernOnly()
+
     const files = custombase.getFiles(buildfile, modern)
 
     base.displayFiles(files)
