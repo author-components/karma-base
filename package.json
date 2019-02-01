@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/author-components/karma-base#readme",
   "dependencies": {
-    "@author.io/karma-base": "^1.0.3"
+    "@author.io/karma-base": "^1.0.4"
   },
   "publishConfig": {
     "access": "public"
