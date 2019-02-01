@@ -39,8 +39,8 @@ module.exports = (root, buildfile) => {
     ]
   }
 
-  return config => {
-    const files = custombase.getFiles(buildfile)
+  return (config, modern = false) => {
+    const files = custombase.getFiles(buildfile, modern)
 
     base.displayFiles(files)
 
