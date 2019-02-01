@@ -158,7 +158,7 @@ let karmaconfig = {
         require('karma-ie-launcher'),
         require('karma-edge-launcher'),
         require('karma-source-map-support'),
-        require('karma-html2js-preprocessor')
+        require('karma-html2js-preprocessor'),
         require('karma-sauce-launcher')
       ]
 
