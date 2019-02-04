@@ -1,12 +1,12 @@
 const path = require('path')
 
 // Karma configuration
-module.exports = (root, buildfile) => {
+module.exports = (root, buildfile, testService = 'SauceLabs') => {
   if (!root) {
     root = process.cwd()
   }
 
-  let base = require('@author.io/karma-base')
+  let base = require('@author.io/karma-base')(testService)
 
   let preprocessors = () => {
     let cfg = {}
